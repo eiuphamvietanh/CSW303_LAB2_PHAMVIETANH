@@ -4,7 +4,7 @@ public class RentalContract_Lease {
     String tenantId;
     double rentAmount;
 
-    public RentalContract(String contractId, String propertyId, String tenantId, double rentAmount) {
+    public RentalContract_Lease(String contractId, String propertyId, String tenantId, double rentAmount) {
         this.contractId = contractId;
         this.propertyId = propertyId;
         this.tenantId = tenantId;
